@@ -1,0 +1,52 @@
+html {
+  font-family: Arial;
+  background-color: #FFFAFF;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.allebadges {
+  margin: 0;
+  padding: 5px;
+  background-color: #D8315B;
+}
+.badge {
+  background: #1E1B18;
+  color: #FFFAFF;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+li {
+  background-color: #3E92CC;
+  padding: 10px;
+  border: 5px solid #0A2463;
+  border-radius: 10px 10px 10px 10px;
+  width: 100px;
+  text-align: center;
+}
+.menu {
+  position: fixed;
+  background-color: #FFFAFF;
+  top:0;
+  width:100%;
+  z-index:100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.koptext {
+  padding-top: 50px
+}
+.index_paragraph {
+  color: #FFFAFF;
+  background-color: #1E1B18;
+}
+a:visited, a:link {
+  color: #FFFFFF;
+}
+.html::-webkit-scrollbar {
+  display: none;
+}
