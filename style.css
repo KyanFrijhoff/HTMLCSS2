@@ -7,7 +7,8 @@ html {
 .allebadges {
   margin: 0;
   padding: 5px;
-  background-color: #D8315B;
+  background-color: #000080;
+  color: #FFFAFF;
 }
 .badge {
   background: #1E1B18;
@@ -41,8 +42,8 @@ li {
   padding-top: 50px
 }
 .index_paragraph {
-  color: #FFFAFF;
   background-color: #1E1B18;
+  color: #FFFAFF;
 }
 a:visited, a:link {
   color: #FFFFFF;
