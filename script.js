@@ -5,11 +5,8 @@ function currentTime() {
   let ss = date.getSeconds();
   let session = "AM";
 
-  if(hh == 0){
-      hh = 12;
-  }
+    
   if(hh > 12){
-      hh = hh - 12;
       session = "PM";
    }
 
@@ -20,6 +17,8 @@ function currentTime() {
    let time = hh + ":" + mm + ":" + ss + " " + session;
 
   document.getElementById("clock").innerText = time; 
-  let t = setTimeout(function(){ currentTime() }, 1000);
+  var t = setTimeout(function(){ currentTime() }, 1000); 
+
 }
+
 currentTime();
