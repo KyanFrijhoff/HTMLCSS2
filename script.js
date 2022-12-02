@@ -22,3 +22,16 @@ function currentTime() {
 }
 
 currentTime();
+
+function indexPagina() {
+  alert("Welkom op de homepagina!");
+}
+function projectPagina() {
+  alert("Welkom op de projectpagina!");
+}
+function badgePagina() {
+  alert("Welkom op de badgepagina!");
+}
+function contactPagina() {
+  alert("Welkom op de contactpagina!");
+}
